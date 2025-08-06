@@ -95,6 +95,17 @@ nav ul li a:hover {
   animation: fadeIn 1s ease-in-out forwards;
 }
 
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
