@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles/style.css" />
-  
 <head>
-  <meta charset="UTF-8">
-  <title>Home | Brandon Cho</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Cho</title>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experiences.html">Experiences</a></li>
+        <li><a href="connect.html">Connect</a></li>
+        <li><a href="resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="experiences.html">Experiences</a>
-  <a href="connect.html">Connect</a>
-</nav>
+  <main class="container">
+    <div class="profile-image fade-in">
+      <img src="images/profile.jpg" alt="Brandon Cho" />
+    </div>
+    <div class="content fade-in">
+      <h1>Brandon Cho</h1>
+      <p>
+        UC Berkeley '26 | Data Science & Economics<br>
+        Piano 🎹 | Fitness 💪 | Guitar 🎸 | League 🎮
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/bxcho/" target="_blank">LinkedIn</a> •
+        <a href="https://github.com/bxcho" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </main>
 
-<main>
-  <img src="images/profile.jpg" alt="Profile picture" class="profile-img">
-  <h1>Brandon Cho</h1>
-  <p>Senior at UC Berkeley | Aspiring Consultant & Data Scientist</p>
-  <p>Welcome to my personal website. Feel free to explore!</p>
-</main>
-
-<footer>
-  &copy; 2025 Brandon Cho. All rights reserved.
-</footer>
-<script src="scripts/script.js" defer></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
