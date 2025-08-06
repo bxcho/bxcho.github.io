@@ -1,1 +1,55 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+}
 
+body.dark-mode {
+  --bg-color: #111111;
+  --text-color: #f0f0f0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.theme-toggle {
+  cursor: pointer;
+  font-size: 1rem;
+  background: none;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.theme-toggle:hover {
+  background: var(--text-color);
+  color: var(--bg-color);
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
