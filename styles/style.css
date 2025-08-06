@@ -106,6 +106,32 @@ nav ul li a:hover {
   z-index: 1000;
 }
 
+/* Light mode (default) */
+body {
+  background-color: #f9f9f9;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+/* Optional: adjust other elements */
+header.dark-mode,
+nav.dark-mode {
+  background-color: #222;
+}
+
+a {
+  color: #3366cc;
+}
+body.dark-mode a {
+  color: #9dbbff;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
