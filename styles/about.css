@@ -1,0 +1,39 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-left {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+}
+
+.about-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-left p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 280px;
+  max-width: 600px;
+}
+
+.about-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
