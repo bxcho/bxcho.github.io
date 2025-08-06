@@ -51,13 +51,14 @@ nav ul li a:hover {
   padding: 1rem;
 }
 
-.profile-image img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 100%;
-  border: 3px solid #ccc;
-  margin-bottom: 1rem;
+.profile-img {
+  max-width: 200px;
+  width: 100%;
+  height: auto; /* or 150px, or any size you want */
+  border-radius: 50%; /* Optional: makes the image round */
+  object-fit: cover; /* Ensures aspect ratio looks nice */
+  display: block;
+  margin: 0 auto; /* Centers the image */
 }
 
 .content {
