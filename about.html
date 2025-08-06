@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About | Brandon Cho</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/about.css" />
+  <script src="scripts/script.js" defer></script>
 </head>
 <body>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="experiences.html">Experiences</a>
-  <a href="connect.html">Connect</a>
-</nav>
+  <header>
+    <nav class="navigation-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="experiences.html">Experiences</a>
+      <a href="connect.html">Connect</a>
+    </nav>
+  </header>
 
-<main>
-  <h1>About Me</h1>
-  <p>I'm currently a senior at UC Berkeley majoring in Data Science and Economics with a passion for strategy, product, and data. My interests lie at the intersection of technology and business.</p>
-  <p>Outside of academics, I enjoy any physical activity and eating. This would be gym, calisthenics, golf, tennis, and basketball, along with my favorite soft tofu stew and AYCE Korean barbecues.</p>
-  <p>I have a passion for community service and take initiative whenever I find the chance, whether it be picking up plastic bits and cigarette butts or tutoring my neighbors' kids.</p>
-</main>
+  <main class="about-container fade-in">
+    <div class="about-left">
+      <h1>About Me</h1>
+      <p>Hello! I'm Brandon, a senior at UC Berkeley majoring in Data Science & Economics.</p>
+      <p>My interests lie at the intersection of business and technology. I'm passionate about solving complex problems through strategic thinking and data-driven insights.</p>
+      <p>Outside of class, I enjoy lifting, golfing, and eating good food (especially Korean BBQ). I also love helping out in my community when I can — from mentoring to trash cleanups.</p>
+    </div>
+    <div class="about-right">
+      <img src="images/drawing.png" alt="Illustration" />
+    </div>
+  </main>
 
-<footer>
-  &copy; 2025 Brandon Cho. All rights reserved.
-</footer>
-<script src="scripts/script.js" defer></script>
+  <footer>
+    &copy; 2025 Brandon Cho. All rights reserved.
+  </footer>
+
 </body>
 </html>
